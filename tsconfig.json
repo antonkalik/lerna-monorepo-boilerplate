@@ -7,7 +7,7 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "types": ["vite/client"],
+    "types": ["vite/client", "jest", "@testing-library/jest-dom"],
     "declaration": true,
     "declarationDir": "./dist/types",
     "isolatedModules": true,

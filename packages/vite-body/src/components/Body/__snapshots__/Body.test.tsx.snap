@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Body /> should render component 1`] = `
+<div>
+  <div>
+    <h1>
+      Title test
+    </h1>
+    <h2>
+      subtitle test
+    </h2>
+    <p>
+      message test
+    </p>
+    <div>
+      Button
+    </div>
+  </div>
+</div>
+`;
