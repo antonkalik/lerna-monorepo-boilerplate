@@ -5,4 +5,8 @@
   flex-wrap: wrap;
   width: 100%;
   border: 1px solid green;
+  list-style-type: none;
+  li {
+    padding: 5px 10px;
+  }
 }
