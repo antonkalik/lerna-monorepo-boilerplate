@@ -1,17 +1,16 @@
-import { Button } from "vite-common";
+import { Button, Links } from "vite-common";
 
 export interface FooterProps {
-  links: string[];
+  links: {
+    label: string;
+    href: string;
+  }[];
 }
 
 export const Footer = ({ links }: FooterProps) => {
   return (
     <footer>
-      <ul>
-        {links.map((link) => {
-          return <li key={link}>{link}</li>;
-        })}
-      </ul>
+      <Links links={links} />
       <Button label="Click Button" backgroundColor="green" />
     </footer>
   );

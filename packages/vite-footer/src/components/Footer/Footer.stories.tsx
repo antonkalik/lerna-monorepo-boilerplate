@@ -9,14 +9,20 @@ export default {
   },
 } as Meta<typeof Footer>;
 
+const mockedLinks = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
+];
+
 const Template: StoryFn<typeof Footer> = (args) => <Footer {...args} />;
 
 export const FooterWithLinks = Template.bind({});
 FooterWithLinks.args = {
-  links: ["Home", "About", "Contact"],
+  links: mockedLinks,
 };
 
 export const FooterWithOneLink = Template.bind({});
 FooterWithOneLink.args = {
-  links: ["Home"],
+  links: [mockedLinks[0]],
 };

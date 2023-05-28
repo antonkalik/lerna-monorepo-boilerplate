@@ -25,8 +25,10 @@
     "@storybook/addon-essentials": "^7.0.18",
     "@storybook/addon-interactions": "^7.0.18",
     "@storybook/addon-links": "^7.0.18",
+    "@storybook/addon-styling": "^1.0.8",
     "@storybook/blocks": "^7.0.18",
     "@storybook/builder-vite": "^7.0.18",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^7.0.18",
     "@storybook/react-vite": "^7.0.18",
     "@storybook/testing-library": "^0.1.0",
@@ -44,7 +46,9 @@
     "path": "^0.12.7",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
+    "sass": "^1.62.1",
     "storybook": "^7.0.18",
+    "storybook-addon-mock": "^4.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
   }

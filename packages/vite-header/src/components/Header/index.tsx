@@ -1,18 +1,15 @@
-import { Button } from "vite-common";
+import { Button, Links } from "vite-common";
+import styles from "./styles.module.scss";
 
 export interface HeaderProps {
   links: { label: string; href: string }[];
 }
 
 export const Header = ({ links }: HeaderProps) => (
-  <header>
+  <header className={styles.header}>
     <div>Logo</div>
     <nav>
-      <ul>
-        {links.map(({ label, href }) => (
-          <li key={href}>{label}</li>
-        ))}
-      </ul>
+      <Links links={links} />
     </nav>
     <Button label="Click Me" />
   </header>
