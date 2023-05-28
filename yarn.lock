@@ -10596,23 +10596,25 @@
 
 "vite-body@file:/Users/antonkalik/Documents/boilerplates/lerna-monorepo-boilerplate/packages/vite-body":
   "resolved" "file:packages/vite-body"
-  "version" "0.0.0"
+  "version" "1.0.0"
   dependencies:
     "vite-common" "*"
 
-"vite-common@*", "vite-common@^1.0.0", "vite-common@file:/Users/antonkalik/Documents/boilerplates/lerna-monorepo-boilerplate/packages/vite-common":
+"vite-common@^2.0.0", "vite-common@file:/Users/antonkalik/Documents/boilerplates/lerna-monorepo-boilerplate/packages/vite-common":
   "resolved" "file:packages/vite-common"
-  "version" "1.0.0"
+  "version" "2.0.0"
 
 "vite-footer@file:/Users/antonkalik/Documents/boilerplates/lerna-monorepo-boilerplate/packages/vite-footer":
   "resolved" "file:packages/vite-footer"
-  "version" "0.0.0"
+  "version" "1.0.0"
   dependencies:
     "vite-common" "^1.0.0"
 
 "vite-header@file:/Users/antonkalik/Documents/boilerplates/lerna-monorepo-boilerplate/packages/vite-header":
   "resolved" "file:packages/vite-header"
-  "version" "0.0.0"
+  "version" "1.0.0"
+  dependencies:
+    "vite-common" "^1.0.0"
 
 "vite@^3.0.0 || ^4.0.0", "vite@^4.1.0-beta.0", "vite@^4.2.0", "vite@^4.3.2":
   "integrity" "sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg=="
