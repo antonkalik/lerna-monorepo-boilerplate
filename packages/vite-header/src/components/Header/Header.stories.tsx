@@ -11,12 +11,16 @@ export default {
 
 const Template: StoryFn<typeof Header> = (args) => <Header {...args} />;
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {
-    name: "Jane Doe",
-  },
+export const HeaderWithLinks = Template.bind({});
+HeaderWithLinks.args = {
+  links: [
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" },
+  ],
 };
 
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+export const HeaderWithOneLink = Template.bind({});
+HeaderWithOneLink.args = {
+  links: [{ label: "Home", href: "/" }],
+};

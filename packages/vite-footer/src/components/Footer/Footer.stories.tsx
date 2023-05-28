@@ -11,12 +11,12 @@ export default {
 
 const Template: StoryFn<typeof Footer> = (args) => <Footer {...args} />;
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {
-    name: "Jane Doe",
-  },
+export const FooterWithLinks = Template.bind({});
+FooterWithLinks.args = {
+  links: ["Home", "About", "Contact"],
 };
 
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+export const FooterWithOneLink = Template.bind({});
+FooterWithOneLink.args = {
+  links: ["Home"],
+};

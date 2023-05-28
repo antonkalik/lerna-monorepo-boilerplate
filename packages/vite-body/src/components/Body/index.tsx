@@ -1,5 +1,3 @@
-import "./body.css";
-// import ColorsSvg from "./colors.svg";
 import { Button } from "vite-common";
 
 export interface BodyProps {
