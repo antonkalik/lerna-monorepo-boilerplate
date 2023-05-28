@@ -2,6 +2,7 @@ node_modules
 storybook-static
 coverage
 dist
+.idea/
 
 # General
 .DS_Store
