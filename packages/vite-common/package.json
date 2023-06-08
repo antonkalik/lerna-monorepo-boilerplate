@@ -2,7 +2,7 @@
   "name": "vite-common",
   "private": true,
   "type": "module",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "./dist/vite-common.umd.cjs",
   "module": "./dist/vite-common.js",
   "types": "dist/types/index.d.ts",
